@@ -151,7 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="EzRequest.h" />
+    <ClInclude Include="Json.h" />
+    <ClInclude Include="Request.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Structs.h" />
   </ItemGroup>
