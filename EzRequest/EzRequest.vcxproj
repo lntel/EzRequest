@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Enums.h" />
     <ClInclude Include="Json.h" />
     <ClInclude Include="Request.h" />
     <ClInclude Include="pch.h" />

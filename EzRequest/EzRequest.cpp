@@ -1,5 +1,6 @@
 #include "pch.h"
 #include <iostream>
+#include <chrono>
 #include "Request.h"
 #include "Json.h"
 
@@ -19,5 +20,8 @@ int main()
 		}
 	}));
 
-	req.postBody("http://localhost/v2/user/login.php", data);
+	if (req.postBody("http://91.188.223.109/v2/user/login.php", data) != REQUEST_EXCEPTION)
+	{
+		printf("%s", req.getResponse().c_str());
+	}
 }
