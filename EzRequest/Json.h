@@ -21,6 +21,7 @@ namespace EzRequest {
 				if (it == prev(data.end()))
 				{
 					_d += "\"" + it->first + "\": \"" + it->second + "\"}";
+					break;
 				}
 
 				_d += "\"" + it->first + "\": \"" + it->second + "\", ";
